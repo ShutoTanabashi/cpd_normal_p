@@ -1,0 +1,13 @@
+[package]
+name = "cpd_normal"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rayon = "1.6"
+simple_excel_writer = "0.2"
+process_param = { git = "https://github.com/ShutoTanabashi/process_param_p" }
+rand_scenario = { git = "https://github.com/ShutoTanabashi/rand_scenario_p" }
+cpd_tools = { git = "https://github.com/ShutoTanabashi/cpd_tools_p" }
